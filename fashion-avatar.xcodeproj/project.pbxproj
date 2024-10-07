@@ -14,6 +14,9 @@
 		FA320E902CB4441900F77D4B /* fashion_avatarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA320E8F2CB4441900F77D4B /* fashion_avatarTests.swift */; };
 		FA320E9A2CB4441900F77D4B /* fashion_avatarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA320E992CB4441900F77D4B /* fashion_avatarUITests.swift */; };
 		FA320E9C2CB4441900F77D4B /* fashion_avatarUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA320E9B2CB4441900F77D4B /* fashion_avatarUITestsLaunchTests.swift */; };
+		FA320EAD2CB44BB600F77D4B /* Outfit.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA320EAC2CB44BB600F77D4B /* Outfit.swift */; };
+		FA320EAF2CB44BF400F77D4B /* NewOutfitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA320EAE2CB44BF400F77D4B /* NewOutfitView.swift */; };
+		FA320EB32CB4531600F77D4B /* Avatar.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA320EB22CB4531600F77D4B /* Avatar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +47,9 @@
 		FA320E952CB4441900F77D4B /* fashion-avatarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "fashion-avatarUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA320E992CB4441900F77D4B /* fashion_avatarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fashion_avatarUITests.swift; sourceTree = "<group>"; };
 		FA320E9B2CB4441900F77D4B /* fashion_avatarUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fashion_avatarUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FA320EAC2CB44BB600F77D4B /* Outfit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Outfit.swift; sourceTree = "<group>"; };
+		FA320EAE2CB44BF400F77D4B /* NewOutfitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewOutfitView.swift; sourceTree = "<group>"; };
+		FA320EB22CB4531600F77D4B /* Avatar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Avatar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +100,9 @@
 		FA320E7D2CB4441700F77D4B /* fashion-avatar */ = {
 			isa = PBXGroup;
 			children = (
+				FA320EAB2CB44BA100F77D4B /* Utilities */,
+				FA320EA92CB44B9600F77D4B /* Views */,
+				FA320EA82CB44B8E00F77D4B /* Models */,
 				FA320E7E2CB4441700F77D4B /* fashion_avatarApp.swift */,
 				FA320E802CB4441700F77D4B /* ContentView.swift */,
 				FA320E822CB4441800F77D4B /* Assets.xcassets */,
@@ -125,6 +134,30 @@
 				FA320E9B2CB4441900F77D4B /* fashion_avatarUITestsLaunchTests.swift */,
 			);
 			path = "fashion-avatarUITests";
+			sourceTree = "<group>";
+		};
+		FA320EA82CB44B8E00F77D4B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FA320EAC2CB44BB600F77D4B /* Outfit.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		FA320EA92CB44B9600F77D4B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FA320EAE2CB44BF400F77D4B /* NewOutfitView.swift */,
+				FA320EB22CB4531600F77D4B /* Avatar.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		FA320EAB2CB44BA100F77D4B /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utilities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +290,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA320EB32CB4531600F77D4B /* Avatar.swift in Sources */,
 				FA320E812CB4441700F77D4B /* ContentView.swift in Sources */,
 				FA320E7F2CB4441700F77D4B /* fashion_avatarApp.swift in Sources */,
+				FA320EAF2CB44BF400F77D4B /* NewOutfitView.swift in Sources */,
+				FA320EAD2CB44BB600F77D4B /* Outfit.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
