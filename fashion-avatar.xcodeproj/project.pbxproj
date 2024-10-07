@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FA320E7F2CB4441700F77D4B /* fashion_avatarApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA320E7E2CB4441700F77D4B /* fashion_avatarApp.swift */; };
+		FA320E812CB4441700F77D4B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA320E802CB4441700F77D4B /* ContentView.swift */; };
+		FA320E832CB4441800F77D4B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA320E822CB4441800F77D4B /* Assets.xcassets */; };
+		FA320E862CB4441800F77D4B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA320E852CB4441800F77D4B /* Preview Assets.xcassets */; };
+		FA320E902CB4441900F77D4B /* fashion_avatarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA320E8F2CB4441900F77D4B /* fashion_avatarTests.swift */; };
+		FA320E9A2CB4441900F77D4B /* fashion_avatarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA320E992CB4441900F77D4B /* fashion_avatarUITests.swift */; };
+		FA320E9C2CB4441900F77D4B /* fashion_avatarUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA320E9B2CB4441900F77D4B /* fashion_avatarUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FA320E8C2CB4441900F77D4B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA320E732CB4441700F77D4B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA320E7A2CB4441700F77D4B;
+			remoteInfo = "fashion-avatar";
+		};
+		FA320E962CB4441900F77D4B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA320E732CB4441700F77D4B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA320E7A2CB4441700F77D4B;
+			remoteInfo = "fashion-avatar";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FA320E7B2CB4441700F77D4B /* fashion-avatar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "fashion-avatar.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA320E7E2CB4441700F77D4B /* fashion_avatarApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fashion_avatarApp.swift; sourceTree = "<group>"; };
+		FA320E802CB4441700F77D4B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FA320E822CB4441800F77D4B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FA320E852CB4441800F77D4B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FA320E8B2CB4441900F77D4B /* fashion-avatarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "fashion-avatarTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA320E8F2CB4441900F77D4B /* fashion_avatarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fashion_avatarTests.swift; sourceTree = "<group>"; };
+		FA320E952CB4441900F77D4B /* fashion-avatarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "fashion-avatarUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA320E992CB4441900F77D4B /* fashion_avatarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fashion_avatarUITests.swift; sourceTree = "<group>"; };
+		FA320E9B2CB4441900F77D4B /* fashion_avatarUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fashion_avatarUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FA320E782CB4441700F77D4B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA320E882CB4441900F77D4B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA320E922CB4441900F77D4B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FA320E722CB4441700F77D4B = {
+			isa = PBXGroup;
+			children = (
+				FA320E7D2CB4441700F77D4B /* fashion-avatar */,
+				FA320E8E2CB4441900F77D4B /* fashion-avatarTests */,
+				FA320E982CB4441900F77D4B /* fashion-avatarUITests */,
+				FA320E7C2CB4441700F77D4B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FA320E7C2CB4441700F77D4B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA320E7B2CB4441700F77D4B /* fashion-avatar.app */,
+				FA320E8B2CB4441900F77D4B /* fashion-avatarTests.xctest */,
+				FA320E952CB4441900F77D4B /* fashion-avatarUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA320E7D2CB4441700F77D4B /* fashion-avatar */ = {
+			isa = PBXGroup;
+			children = (
+				FA320E7E2CB4441700F77D4B /* fashion_avatarApp.swift */,
+				FA320E802CB4441700F77D4B /* ContentView.swift */,
+				FA320E822CB4441800F77D4B /* Assets.xcassets */,
+				FA320E842CB4441800F77D4B /* Preview Content */,
+			);
+			path = "fashion-avatar";
+			sourceTree = "<group>";
+		};
+		FA320E842CB4441800F77D4B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				FA320E852CB4441800F77D4B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FA320E8E2CB4441900F77D4B /* fashion-avatarTests */ = {
+			isa = PBXGroup;
+			children = (
+				FA320E8F2CB4441900F77D4B /* fashion_avatarTests.swift */,
+			);
+			path = "fashion-avatarTests";
+			sourceTree = "<group>";
+		};
+		FA320E982CB4441900F77D4B /* fashion-avatarUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FA320E992CB4441900F77D4B /* fashion_avatarUITests.swift */,
+				FA320E9B2CB4441900F77D4B /* fashion_avatarUITestsLaunchTests.swift */,
+			);
+			path = "fashion-avatarUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FA320E7A2CB4441700F77D4B /* fashion-avatar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA320E9F2CB4441900F77D4B /* Build configuration list for PBXNativeTarget "fashion-avatar" */;
+			buildPhases = (
+				FA320E772CB4441700F77D4B /* Sources */,
+				FA320E782CB4441700F77D4B /* Frameworks */,
+				FA320E792CB4441700F77D4B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "fashion-avatar";
+			productName = "fashion-avatar";
+			productReference = FA320E7B2CB4441700F77D4B /* fashion-avatar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FA320E8A2CB4441900F77D4B /* fashion-avatarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA320EA22CB4441900F77D4B /* Build configuration list for PBXNativeTarget "fashion-avatarTests" */;
+			buildPhases = (
+				FA320E872CB4441900F77D4B /* Sources */,
+				FA320E882CB4441900F77D4B /* Frameworks */,
+				FA320E892CB4441900F77D4B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA320E8D2CB4441900F77D4B /* PBXTargetDependency */,
+			);
+			name = "fashion-avatarTests";
+			productName = "fashion-avatarTests";
+			productReference = FA320E8B2CB4441900F77D4B /* fashion-avatarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FA320E942CB4441900F77D4B /* fashion-avatarUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA320EA52CB4441900F77D4B /* Build configuration list for PBXNativeTarget "fashion-avatarUITests" */;
+			buildPhases = (
+				FA320E912CB4441900F77D4B /* Sources */,
+				FA320E922CB4441900F77D4B /* Frameworks */,
+				FA320E932CB4441900F77D4B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA320E972CB4441900F77D4B /* PBXTargetDependency */,
+			);
+			name = "fashion-avatarUITests";
+			productName = "fashion-avatarUITests";
+			productReference = FA320E952CB4441900F77D4B /* fashion-avatarUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA320E732CB4441700F77D4B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					FA320E7A2CB4441700F77D4B = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					FA320E8A2CB4441900F77D4B = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = FA320E7A2CB4441700F77D4B;
+					};
+					FA320E942CB4441900F77D4B = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = FA320E7A2CB4441700F77D4B;
+					};
+				};
+			};
+			buildConfigurationList = FA320E762CB4441700F77D4B /* Build configuration list for PBXProject "fashion-avatar" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FA320E722CB4441700F77D4B;
+			productRefGroup = FA320E7C2CB4441700F77D4B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA320E7A2CB4441700F77D4B /* fashion-avatar */,
+				FA320E8A2CB4441900F77D4B /* fashion-avatarTests */,
+				FA320E942CB4441900F77D4B /* fashion-avatarUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FA320E792CB4441700F77D4B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA320E862CB4441800F77D4B /* Preview Assets.xcassets in Resources */,
+				FA320E832CB4441800F77D4B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA320E892CB4441900F77D4B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA320E932CB4441900F77D4B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA320E772CB4441700F77D4B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA320E812CB4441700F77D4B /* ContentView.swift in Sources */,
+				FA320E7F2CB4441700F77D4B /* fashion_avatarApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA320E872CB4441900F77D4B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA320E902CB4441900F77D4B /* fashion_avatarTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA320E912CB4441900F77D4B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA320E9C2CB4441900F77D4B /* fashion_avatarUITestsLaunchTests.swift in Sources */,
+				FA320E9A2CB4441900F77D4B /* fashion_avatarUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FA320E8D2CB4441900F77D4B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA320E7A2CB4441700F77D4B /* fashion-avatar */;
+			targetProxy = FA320E8C2CB4441900F77D4B /* PBXContainerItemProxy */;
+		};
+		FA320E972CB4441900F77D4B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA320E7A2CB4441700F77D4B /* fashion-avatar */;
+			targetProxy = FA320E962CB4441900F77D4B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		FA320E9D2CB4441900F77D4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FA320E9E2CB4441900F77D4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FA320EA02CB4441900F77D4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"fashion-avatar/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "junnaama.fashion-avatar";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FA320EA12CB4441900F77D4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"fashion-avatar/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "junnaama.fashion-avatar";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FA320EA32CB4441900F77D4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "junnaama.fashion-avatarTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/fashion-avatar.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/fashion-avatar";
+			};
+			name = Debug;
+		};
+		FA320EA42CB4441900F77D4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "junnaama.fashion-avatarTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/fashion-avatar.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/fashion-avatar";
+			};
+			name = Release;
+		};
+		FA320EA62CB4441900F77D4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "junnaama.fashion-avatarUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "fashion-avatar";
+			};
+			name = Debug;
+		};
+		FA320EA72CB4441900F77D4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "junnaama.fashion-avatarUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "fashion-avatar";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FA320E762CB4441700F77D4B /* Build configuration list for PBXProject "fashion-avatar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA320E9D2CB4441900F77D4B /* Debug */,
+				FA320E9E2CB4441900F77D4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA320E9F2CB4441900F77D4B /* Build configuration list for PBXNativeTarget "fashion-avatar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA320EA02CB4441900F77D4B /* Debug */,
+				FA320EA12CB4441900F77D4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA320EA22CB4441900F77D4B /* Build configuration list for PBXNativeTarget "fashion-avatarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA320EA32CB4441900F77D4B /* Debug */,
+				FA320EA42CB4441900F77D4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA320EA52CB4441900F77D4B /* Build configuration list for PBXNativeTarget "fashion-avatarUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA320EA62CB4441900F77D4B /* Debug */,
+				FA320EA72CB4441900F77D4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FA320E732CB4441700F77D4B /* Project object */;
+}
